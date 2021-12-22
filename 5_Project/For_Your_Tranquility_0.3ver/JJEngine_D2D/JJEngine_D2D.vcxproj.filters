@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{31a1a8e6-1e56-4b02-a36f-2f252091089f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{f254b5f4-197f-4c1c-ba38-cf747556684d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transform">
+      <UniqueIdentifier>{e83bdcac-347f-4a59-a565-423fce8400a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{fd034992-7fa9-4a76-92b9-b05d05e8efa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D2D_Engine">
+      <UniqueIdentifier>{613c13f6-b32a-40d9-a7f9-52e0866578c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{0d1d08a3-1934-43cb-9e1d-b8e533ed82de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{d1ddb1bd-dc12-4440-804a-13548d0aee4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JTimer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="JMotion.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="JTransform.cpp">
+      <Filter>Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="JPhysics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="JJEngine_D2D_Main.cpp">
+      <Filter>D2D_Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="JScript.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="JSprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JTimer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="JMotion.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="JTransform.h">
+      <Filter>Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="JPhysics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="JJEngine_D2D.h">
+      <Filter>D2D_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="JJEngine_Macro.h">
+      <Filter>D2D_Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="JScript.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="JSprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

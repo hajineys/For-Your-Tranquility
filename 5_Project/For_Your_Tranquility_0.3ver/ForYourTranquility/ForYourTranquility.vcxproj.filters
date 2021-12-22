@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameProcess">
+      <UniqueIdentifier>{baf8ea53-5dce-4a1d-96fe-5389bc989dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{c622ae67-6bba-466c-9d1e-888738b08aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{015cb28c-2067-439c-9fae-fe79f118392c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="기타등등">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="SceneManager">
+      <UniqueIdentifier>{99ca6b2b-bd93-4175-8a4c-66cf2a67d52c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundManager">
+      <UniqueIdentifier>{1cc9f882-75f5-4a1f-b3c4-1e94b07be692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputManager">
+      <UniqueIdentifier>{aba93259-f1a2-4dc8-8ca4-9678fd6aab59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneManager\MenuScene">
+      <UniqueIdentifier>{2d679ecd-6ea1-40cd-95cc-b5c1740ec4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneManager\InGameScene">
+      <UniqueIdentifier>{df1a0912-ad87-44d7-b37b-831fbfee8630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneManager\Cinematic">
+      <UniqueIdentifier>{8a212acd-a243-425d-bb43-bb2dc5e9768e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{80ee1f3b-ff0e-465b-92f6-460e1769d32b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneManager\InGameScene\Organ">
+      <UniqueIdentifier>{56b03d51-2ce8-4eff-aec7-f5f94d99d8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{3ad6974d-bd1e-4857-834b-4793391a2903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Json">
+      <UniqueIdentifier>{ec1819ca-ca73-43ca-8db4-901a44f62b3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>기타등등</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>기타등등</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>기타등등</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroAnimationScene.h">
+      <Filter>SceneManager\Cinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroTitleScene.h">
+      <Filter>SceneManager\MenuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainAutopsyRoomScene.h">
+      <Filter>SceneManager\InGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainOfficeScene.h">
+      <Filter>SceneManager\InGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="OutroResultScene.h">
+      <Filter>SceneManager\Cinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="OutroEndingScene.h">
+      <Filter>SceneManager\Cinematic</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDissectingRoomScene.h">
+      <Filter>SceneManager\InGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Organ.h">
+      <Filter>SceneManager\InGameScene\Organ</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Json\json.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Json\json-forwards.h">
+      <Filter>Json</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderBox.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MainAutopsyEntryScene.h">
+      <Filter>SceneManager\InGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainIncidentScene.h">
+      <Filter>SceneManager\InGameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FileFolder.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroAnimationScene.cpp">
+      <Filter>SceneManager\Cinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroTitleScene.cpp">
+      <Filter>SceneManager\MenuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainAutopsyRoomScene.cpp">
+      <Filter>SceneManager\InGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainOfficeScene.cpp">
+      <Filter>SceneManager\InGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="OutroResultScene.cpp">
+      <Filter>SceneManager\Cinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="OutroEndingScene.cpp">
+      <Filter>SceneManager\Cinematic</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDissectingRoomScene.cpp">
+      <Filter>SceneManager\InGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Organ.cpp">
+      <Filter>SceneManager\InGameScene\Organ</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Json\jsoncpp.cpp">
+      <Filter>Json</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderBox.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="MainAutopsyEntryScene.cpp">
+      <Filter>SceneManager\InGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainIncidentScene.cpp">
+      <Filter>SceneManager\InGameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="FileFolder.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ForYourTranquility.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ForYourTranquility.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
